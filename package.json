@@ -1,0 +1,16 @@
+{
+  "name": "@anvil/content-gate",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Publish gate: reference solution must pass its own hidden tests, twice, deterministically.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test test/",
+    "start": "node src/cli.mjs",
+    "verify": "node verify.mjs"
+  },
+  "license": "MIT"
+}
